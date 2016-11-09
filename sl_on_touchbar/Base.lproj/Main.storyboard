@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="16C41b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="7104"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11760"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" message="Use a version of macOS with Touch Bar support." minToolsVersion="8.1" minSystemVersion="10.12.1" requiredIntegratedClassName="NSTouchBar"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" title="SL" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                    </window>
+                    <touchBar key="touchBar" id="xmN-zC-h8c">
+                        <touchBarItems>
+                            <touchBarItem id="HrR-h7-NCn">
+                                <viewController key="viewController" id="mWw-hs-xC2">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="cF0-5M-j3l">
+                                        <rect key="frame" x="0.0" y="0.0" width="960" height="30"/>
+                                        <subviews>
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="h5k-P6-abQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="685" height="30"/>
+                                                <subviews>
+                                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x10-iS-P7w" customClass="SLCanvas" customModule="sl_on_touchbar" customModuleProvider="target">
+                                                        <rect key="frame" x="700" y="0.0" width="150" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="mGf-ax-GZr"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="685" id="Dyg-0A-Wrq"/>
+                                                    <constraint firstAttribute="height" constant="30" id="NQq-hC-kr8"/>
+                                                </constraints>
+                                            </customView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="960" id="8fT-fS-RIV"/>
+                                            <constraint firstItem="h5k-P6-abQ" firstAttribute="leading" secondItem="cF0-5M-j3l" secondAttribute="leading" id="VtH-D3-3IQ"/>
+                                            <constraint firstItem="h5k-P6-abQ" firstAttribute="centerY" secondItem="cF0-5M-j3l" secondAttribute="centerY" id="XMT-d0-vRW"/>
+                                            <constraint firstAttribute="height" constant="30" id="rV9-Hn-8dZ"/>
+                                        </constraints>
+                                    </view>
+                                </viewController>
+                                <size key="designTimeSize" width="960" height="30"/>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114.5" y="131"/>
+        </scene>
+    </scenes>
+</document>
