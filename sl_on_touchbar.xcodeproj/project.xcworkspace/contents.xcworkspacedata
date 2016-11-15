@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/sekiyama/Desktop/sl_on_touchbar/sl_on_touchbar.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -14,11 +14,15 @@ class SLCanvas: NSImageView {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        x = self.superview!.bounds.width - 30
+        x = self.superview!.bounds.width
         
         self.animates = true
-        self.image = NSImage(named: "sl.gif")!
-
+        let env = ProcessInfo.processInfo.environment
+        if let value = env["SL_IMAGE"] as String? {
+            self.image = NSImage(contentsOfFile: value) ?? NSImage(named: "sl.gif")!
+        } else {
+            self.image = NSImage(named: "sl.gif")!
+        }
         let timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true, block: updatePosition)
         timer.fire()
     }
@@ -26,7 +30,7 @@ class SLCanvas: NSImageView {
     func updatePosition(timer : Timer) {
         x -= 5
         self.frame = CGRect(x: x, y: 0, width: self.image!.size.width/2, height: self.image!.size.height/2)
-        if (x < -self.image!.size.width) {
+        if (x < -self.image!.size.width/2) {
             NSApplication.shared().terminate(self)
         } else {
             NSApplication.shared().activate(ignoringOtherApps: true)
