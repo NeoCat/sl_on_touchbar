@@ -6,15 +6,15 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		u3hjO2a1umn3mOu50KJDRekspvo=
+		m+0ucXTWPwL8SqpXpTvfzPJlyM8=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<data>
-		Yi71wwWnCIObuEjWPpe67PDnbSg=
+		+1mpDGqRKYCRI+AgSit/2vCPpBE=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<data>
-		KZR3yNKDOQ6KIyCAkAuYrILsE8s=
+		ewzJq3qRJO3PZ0WkcDeYHCsRCac=
 		</data>
 		<key>Resources/sl.gif</key>
 		<data>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			hPhzKbT4haLZGyWKWnpAPWBaabM=
+			yN8549nh7xAtvEDpxdfXoOQlCD4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -36,7 +36,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+6oayHXU1gwaps64GU+PK7GHRow=
+			OqdVmXD3xUVkhrxaqbUoD/YJiQc=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -45,16 +45,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			w8EcPjRuIc+Qr2Z1rNz3zhXRWl0=
+			XQVc0u+p7ISsGBlcm1jqerJ37y0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftCoreFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			H4K9ej9SaII2VFGjAlajcZ1c0Ac=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			hDXkFPaUQJYNoAESmiKl7UfQJPA=
+			Tt91huhMkTaAXTrwFgQa58MR+ug=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -63,7 +72,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			hbcn4qaQUCzZbNMSNtom5LVv/8g=
+			d5HkrdUYIzAfzOI73+zhZnHOOVQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -72,7 +81,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			H7Z+Ulldm/PeBqtOEfNlQr5v3xs=
+			5/I/zZwfCwN+aqV8LY8U1qJ5PQg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -81,7 +90,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			deRugqAcTd4TkL0f0IGxkconxAk=
+			t1tfeisTV80U47aaIkucIiFvKQ0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -90,7 +99,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zo3vfQZSBAjtu0jNnYufRtlAZQU=
+			4BcalcBq+XyqSosiB/tmU1jOuZA=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -99,16 +108,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			qNBBuoJbJY0KWS7ciZ3tXg+8oPA=
+			fEOADi+TiQbx0l8kCSztG7Jdufw=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftMetal.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			9IC3TXzCnrxEn+JH3SxUy0vNLiA=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftMetal" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			eoSi3+K8P55F7Fw6oq38Om5g/ow=
+			Id0j5lfZKfOa2Z03AVX+xlI2KFo=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -117,7 +135,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			VQrGp7LSas7SOscrpqG1Xm5TX7E=
+			HS+zOy77/jWflrLrO4voSYCWSQ0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -126,30 +144,39 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			0WmqtD8vSWtUJJNtRmH4x3lBnd4=
+			IMZlVJVi8c0Dcl8dZ1S0jYECn7Q=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftos.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			6ak0ZJNnPJaQl4rc4f51tqLiepg=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: neocat@neocat.jp (839WQ7KH7Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0vaJSUbRXE9b2p16P6iDLYg6hDIx2wRjKBM9gOT+ITs=
+			fCkj3dxO+6G+/kbMgwndH03vhshdVKrGXASXfUN4YL4=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyBZ6TVAQeBboKYiu6/GDA2bZs6JUQ6SKZFKAk6Et+E=
+			SL7gPi0iGc6reXPZl7+gfqTiRf3PNlqpsv9O2dV0Xls=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hm5+sOwUtFvWnYGKeUAneCYjQKfI/izz9tztjsfm1M8=
+			s36vVq88B8M95DHQt4p6HyeN9EOF6bhbZByugVmiqe8=
 			</data>
 		</dict>
 		<key>Resources/sl.gif</key>
